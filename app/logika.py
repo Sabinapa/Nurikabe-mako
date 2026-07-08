@@ -101,9 +101,10 @@ def _sosedje(r, c, vrstice, stolpci):
 def preveri_resitev(uganka, mreza):
     """Preveri, ali mreza predstavlja veljavno rešitev uganke.
 
-    Vrne par (veljavna, sporocilo). Če rešitev ni veljavna, sporocilo
-    opiše prvo najdeno kršitev pravil.
+    Vrne par (veljavna, sporocilo).
+    Če rešitev ni veljavna, sporocilo opiše prvo najdeno kršitev pravil.
     """
+
     V, S = uganka.vrstice, uganka.stolpci
     if len(mreza) != V or any(len(vr) != S for vr in mreza):
         return False, "Dimenzije rešitve se ne ujemajo z uganko."
@@ -128,6 +129,7 @@ def preveri_resitev(uganka, mreza):
 
     # 4. Vsak otok (povezana skupina celic I) mora vsebovati natanko eno
     #    številko in imeti točno toliko celic, kot pove ta številka.
+    # otoki se ne smejo dotika
     obiskano = [[False] * S for _ in range(V)]
     for r in range(V):
         for c in range(S):
