@@ -8,7 +8,7 @@ from collections import deque
 
 try:
     from logika import NEZNANO, OTOK, VODA, preveri_resitev
-except ImportError:  # zagon iz korena projekta (import app.resevalec)
+except ImportError:  # zagon iz korena projekta
     from app.logika import NEZNANO, OTOK, VODA, preveri_resitev
 
 # Interne oznake celic (vrednosti >= 0 pomenijo indeks otoka)
