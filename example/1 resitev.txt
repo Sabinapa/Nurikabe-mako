@@ -1,0 +1,7 @@
+# Nurikabe rešitev 5x5
+# I = Otok, W = Voda
+W W W W W
+I W I I W
+I W I W W
+I W W I W
+I W I I W
