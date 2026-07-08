@@ -1,0 +1,26 @@
+# Nurikabe rešitev 24x14
+# I = Otok, W = Voda
+W W I I I W W W W W W W I I
+I W W I I W I I W I I W I I
+W W I W I I W W W W W I I I
+W I W W W I I W I W I I W W
+W I W I I W I W W I I W I W
+W W W W W W I I W W I W I W
+I I W I I W W I I W I W I W
+I W I W I W I W I W I W I W
+W W I W I W W W I W I W W W
+I W W W W I W I I W I I W I
+I I W I W I W W W W W I W I
+I W W I W I W I W I I W W I
+I W I W W I I W W W W I W I
+I W I I W I W W I W I I W W
+I I W W W W I W I W W W W I
+W W I I W I W W I W I I W I
+I W W W W W I W I W W W W W
+I W I I W I I W I W I W I I
+I W I W I W I W W W W I I I
+I W I W I W I W I I I W W W
+I W I W I W I W W W W W I I
+I W I W I W I W I W I I W I
+W W W W W W W W I W W W W I
+I I I I I I I I I I I I W I
